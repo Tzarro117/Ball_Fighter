@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: 9e645ac9a2371da4ab36e742fd637e8d
+timeCreated: 1522914683
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Gaunt.L
+    100004: Gaunt.L.002
+    100006: Head
+    100008: Head_end
+    100010: Helmet.001.L
+    100012: L.Arm
+    100014: L.Elbow.IK
+    100016: L.Elbow.IK_end
+    100018: L.Farm
+    100020: L.Hand
+    100022: L.Hand.Control
+    100024: L.Hand.Control_end
+    100026: L.Hand_end
+    100028: L.Shoulder.002
+    100030: L.Shoulder.IK
+    100032: L.Shoulder.IK_end
+    100034: R.Arm
+    100036: R.Elbow.IK
+    100038: R.Elbow.IK_end
+    100040: R.Farm
+    100042: R.Hand
+    100044: R.Hand_end
+    100046: R.HandControl
+    100048: R.HandControl_end
+    100050: R.Shoulder
+    100052: R.Shoulder.IK
+    100054: R.Shoulder.IK_end
+    100056: Shield.001.Col
+    100058: Shield.001.L
+    100060: Spine
+    100062: Spine.001
+    100064: Spine.003
+    100066: Spine.003_end
+    100068: Sword.001.Col
+    100070: Sword.001.L
+    100072: //RootNode
+    400000: Armature
+    400002: Gaunt.L
+    400004: Gaunt.L.002
+    400006: Head
+    400008: Head_end
+    400010: Helmet.001.L
+    400012: L.Arm
+    400014: L.Elbow.IK
+    400016: L.Elbow.IK_end
+    400018: L.Farm
+    400020: L.Hand
+    400022: L.Hand.Control
+    400024: L.Hand.Control_end
+    400026: L.Hand_end
+    400028: L.Shoulder.002
+    400030: L.Shoulder.IK
+    400032: L.Shoulder.IK_end
+    400034: R.Arm
+    400036: R.Elbow.IK
+    400038: R.Elbow.IK_end
+    400040: R.Farm
+    400042: R.Hand
+    400044: R.Hand_end
+    400046: R.HandControl
+    400048: R.HandControl_end
+    400050: R.Shoulder
+    400052: R.Shoulder.IK
+    400054: R.Shoulder.IK_end
+    400056: Shield.001.Col
+    400058: Shield.001.L
+    400060: Spine
+    400062: Spine.001
+    400064: Spine.003
+    400066: Spine.003_end
+    400068: Sword.001.Col
+    400070: Sword.001.L
+    400072: //RootNode
+    2100000: Stone.Cell
+    2100002: No Name
+    2100004: Glovemat.001
+    2300000: Helmet.001.L
+    2300002: Shield.001.Col
+    2300004: Shield.001.L
+    2300006: Sword.001.L
+    3300000: Helmet.001.L
+    3300002: Shield.001.Col
+    3300004: Shield.001.L
+    3300006: Sword.001.L
+    4300000: Sword.001.L
+    4300002: Shield.001.L
+    4300004: Helmet.001.L
+    4300006: Shield.001.Col
+    4300008: Sword.001.Col
+    4300010: Gaunt.L
+    4300012: Gaunt.L.002
+    7400000: Armature|ATK.001.Charge
+    7400002: Armature|ATK.001.IDLE
+    7400004: Armature|ATK.001.Stab.001
+    7400006: Armature|ATK.001.Swing.001
+    7400008: Armature|Block.001
+    7400010: Shield.001.Col|ATK.001.Stab.001
+    9500000: //RootNode
+    13700000: Gaunt.L
+    13700002: Gaunt.L.002
+    13700004: Sword.001.Col
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ATK.001.Charge
+      takeName: Armature|ATK.001.Charge
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK.001.IDLE
+      takeName: Armature|ATK.001.IDLE
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK.001.Stab.001
+      takeName: Armature|ATK.001.Stab.001
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK.001.Swing.001
+      takeName: Armature|ATK.001.Swing.001
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Block.001
+      takeName: Armature|Block.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shield.001.Col|ATK.001.Stab.001
+      takeName: Shield.001.Col|ATK.001.Stab.001
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
