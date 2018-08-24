@@ -34,7 +34,9 @@ public class Player2Main : MonoBehaviour {
 	}
 
     private void Update()
+
     {
+        /*
         if ((!Input.GetKey("a") && (rb.velocity.x < 0)) || (Input.GetKey("a") && Input.GetKey("d")))
         {
             Vector3 decel1 = new Vector3(-rb.velocity.x, 0.0f, 0.0f);
@@ -58,13 +60,29 @@ public class Player2Main : MonoBehaviour {
             Vector3 decel2 = new Vector3(0.0f, 0.0f, -rb.velocity.z);
             rb.AddForce(decel2 * drag, ForceMode.Acceleration);
         }
-
+        */
         Rotation();
 
     }
 
     void FixedUpdate()
     {
+
+        {
+            if (Input.GetKey("a") || Input.GetKey("w") || Input.GetKey("d") || Input.GetKey("s"))
+            {
+                Move();
+            }
+
+            rb.AddForce(grav * 2, ForceMode.Acceleration);
+
+            Vector3 decel1 = new Vector3(-rb.velocity.x, 0.0f, 0.0f);
+            rb.AddForce(decel1 * drag, ForceMode.Acceleration);
+
+            Vector3 decel2 = new Vector3(0.0f, 0.0f, -rb.velocity.z);
+            rb.AddForce(decel2 * drag, ForceMode.Acceleration);
+        }
+        /*
         float h = Input.GetAxis("Player2Horizontal");
         float v = Input.GetAxis("Player2Vertical");
 
@@ -77,6 +95,8 @@ public class Player2Main : MonoBehaviour {
         {
             v = 0.0f;
         }
+        */
+
         //rb.velocity = Vector3.ClampMagnitude(rb.velocity, 8);
 
         /* This is the original system to cap move speed
@@ -88,17 +108,30 @@ public class Player2Main : MonoBehaviour {
                 rbv.y = f;
                 rb.velocity = rbv;
         */
+
+        /*
         Move(h, v);
 
         rb.AddForce(grav * 2, ForceMode.Acceleration);
+        */
     }
 
+    void Move()
+    {
+        //if (rb.rotation.eulerAngles.y - playerMoveDirection.y < 45)
+        {
+            rb.AddForce(playerMoveDirection.normalized * speed, ForceMode.Acceleration);
+        }
+    }
+
+    /*
     void Move(float h, float v)
     {
         movement.Set(h, 0f, v);
 
         rb.AddForce(movement.normalized * speed, ForceMode.Acceleration);
     }
+    */
 
     void Rotation()
     {

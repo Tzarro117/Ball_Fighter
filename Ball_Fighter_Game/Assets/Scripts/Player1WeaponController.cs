@@ -135,7 +135,7 @@ public class Player1WeaponController : MonoBehaviour {
             fadeTime = 0.0f;
             enemyObject.GetComponent<Renderer>().material = enemyHit;
             enemyObject.GetComponent<Rigidbody>().AddForce(player.transform.forward * attackPower, ForceMode.Impulse);
-            GameObject.Find("Player2WindSlider").GetComponent<WindScript>().player2WindValue -= 5;
+            GameObject.Find("Player2WindSlider").GetComponent<Player2WindScript>().player2WindValue -= 5;
             attackWindow = false;
 
             //Attack();
